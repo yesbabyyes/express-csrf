@@ -19,6 +19,10 @@ Recommended installation is with git submodules. To add express-csrf to your pro
 
     git submodule add http://github.com/hanssonlarsson/express-csrf.git lib/support/express-csrf
 
+You can also install express-csrf with npm:
+
+    npm install express-csrf
+
 ## Usage
 
     var express = require('express'),
