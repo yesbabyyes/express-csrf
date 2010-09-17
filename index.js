@@ -1,4 +1,4 @@
-var hashlib = require(__dirname + 'lib/support/hashlib/build/default/hashlib');
+var hashlib = require(__dirname + '/lib/support/hashlib/build/default/hashlib');
 
 var csrf = null;
 
