@@ -8,15 +8,12 @@ It provides a csrf token to views using dynamicHelpers, which is also saved in t
 ## Requirements
 - [Node](http://github.com/ry/node)
 - [Express](http://github.com/visionmedia/express)
-
+- [hashlib](http://github.com/brainfucker/hashlib)
 ## Installation
 
 Recommended installation is with git submodules. To add express-csrf to your project, do:
 
     git submodule add http://github.com/hanssonlarsson/express-csrf.git lib/support/express-csrf
-    git submodule update --init --recursive
-
-This will also clone [hashlib](http://github.com/brainfucker/hashlib)
 
 ## Usage
 
