@@ -5,10 +5,14 @@ Express-CSRF: Cross-site request forgery protection for Express Node.js framewor
 
 It provides a csrf token to views using dynamicHelpers, which is also saved in the session. With a middleware check, the csrf token in the request body is checked against the one in the session, to make sure that they match.
 
+## Version
+0.1.0
+
 ## Requirements
 - [Node](http://github.com/ry/node)
 - [Express](http://github.com/visionmedia/express)
 - [hashlib](http://github.com/brainfucker/hashlib)
+
 ## Installation
 
 Recommended installation is with git submodules. To add express-csrf to your project, do:
