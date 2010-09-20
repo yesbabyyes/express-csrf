@@ -1,4 +1,4 @@
-var hashlib = require('hashlib');
+var crypto = require('crypto');
 
 var csrf = null;
 
@@ -18,7 +18,7 @@ var csrf = null;
  */
 exports.token = function(req, res) {
   if (!(typeof csrf !== "undefined" && csrf !== null)) {
-    csrf = hashlib.md5('' + new Date().getTime() + req.session.lastAccess);
+    csrf = crypto.createHash('md5').update('' + new Date().getTime() + req.session.lastAccess).digest('hex');
     req.session.csrf = csrf;
   }
   return csrf;

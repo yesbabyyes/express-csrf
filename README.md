@@ -11,7 +11,6 @@ It provides a csrf token to views using dynamicHelpers, which is also saved in t
 ## Requirements
 - [Node](http://github.com/ry/node)
 - [Express](http://github.com/visionmedia/express)
-- [hashlib](http://github.com/brainfucker/hashlib)
 
 ## Installation
 
@@ -54,7 +53,7 @@ Linus G Thiel &lt;linus@hanssonlarsson.se&gt;
 
 - [Ryan Dahl](http://github.com/ry) for the awesome Node.js
 - [Visionmedia](http://github.com/visionmedia) for Express
-- [Illarionov Oleg](http://github.com/brainfucker) for hashlib
+- [Tane Piper](http://github.com/tanepiper) for letting us know about Node's crypto module
 
 ## License 
 
