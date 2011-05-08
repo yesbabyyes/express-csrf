@@ -1,7 +1,7 @@
 {
     "name": "express-csrf",
     "description": "Cross-site request forgery protection for Express",
-    "version": "0.3.1",
+    "version": "0.3.2",
     "author": "Linus G Thiel <linus@hanssonlarsson.se>",
     "dependencies": { "express": ">= 2.0.0" },
     "keywords": ["middleware", "web", "csrf"],
