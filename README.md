@@ -14,13 +14,13 @@ It provides a csrf token to views using dynamicHelpers, which is also saved in t
 
 ## Installation
 
-Recommended installation is with git submodules. To add express-csrf to your project, do:
-
-    git submodule add http://github.com/hanssonlarsson/express-csrf.git lib/support/express-csrf
-
-You can also install express-csrf with npm:
+Recommended installation is with npm. To add express-csrf to your project, do:
 
     npm install express-csrf
+
+You can also install express-csrf as a git submodule:
+
+    git submodule add http://github.com/hanssonlarsson/express-csrf.git lib/support/express-csrf
 
 ## Usage
 
