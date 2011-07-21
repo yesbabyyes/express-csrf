@@ -3,6 +3,11 @@
     "description": "Cross-site request forgery protection for Express",
     "version": "0.3.3",
     "author": "Linus G Thiel <linus@hanssonlarsson.se>",
+    "contributors": [
+        { "name": "Tane Piper", "url": "http://github.com/tanepiper" },
+        { "name": "Stijn Debrouwere", "url": "http://github.com/stdbrouw" },
+        { "name": "elisee", "url": "http://github.com/elisee" }
+    ],
     "dependencies": { "express": ">= 2.0.0" },
     "keywords": ["middleware", "web", "csrf"],
     "engines": { "node": ">= 0.2.0" },

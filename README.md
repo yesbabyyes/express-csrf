@@ -55,6 +55,8 @@ Linus G Thiel &lt;linus@hanssonlarsson.se&gt;
 - [Ryan Dahl](http://github.com/ry) for the awesome Node.js
 - [Visionmedia](http://github.com/visionmedia) for Express
 - [Tane Piper](http://github.com/tanepiper) for letting us know about Node's crypto module
+- [Stijn Debrouwere](http://github.com/stdbrouw)
+- [elisee](http://github.com/elisee)
 
 ## License 
 
