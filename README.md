@@ -1,12 +1,16 @@
 Express-CSRF: Cross-site request forgery protection for Express Node.js framework
 =================================================================================
 
+## This module is deprecated
+
+Please use the [csrf middleware](http://senchalabs.github.com/connect/middleware-csrf.html) bundled with [Connect](http://senchalabs.github.com/connect/) instead.
+
 `express-csrf` is a simple helper for enabling cross-site request forgery protection in Express applications.
 
 It provides a csrf token to views using dynamicHelpers, which is also saved in the session. With a middleware check, the csrf token in the request body is checked against the one in the session, to make sure that they match.
 
 ## Version
-0.3.3
+0.3.4
 
 ## Requirements
 - [Node](http://github.com/ry/node)

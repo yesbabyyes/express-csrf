@@ -1,7 +1,7 @@
 {
     "name": "express-csrf",
     "description": "Cross-site request forgery protection for Express",
-    "version": "0.3.3",
+    "version": "0.3.4",
     "author": "Linus G Thiel <linus@hanssonlarsson.se>",
     "contributors": [
         { "name": "Tane Piper", "url": "http://github.com/tanepiper" },
